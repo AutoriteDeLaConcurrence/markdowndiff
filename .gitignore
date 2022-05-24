@@ -1,0 +1,11 @@
+*.pyc
+*.pytest_cache
+__pycache__
+*.bak
+*.egg-info
+*.wp?
+.eggs
+.tox
+.coverage
+htmlcov
+build

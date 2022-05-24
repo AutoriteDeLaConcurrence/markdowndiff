@@ -1,0 +1,7 @@
+include .coveragerc
+include Makefile
+recursive-include tests *.py
+recursive-include tests *.xml
+recursive-include tests *.html
+recursive-include tests *.diff
+recursive-include data *.html

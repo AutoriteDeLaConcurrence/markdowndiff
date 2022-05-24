@@ -1,0 +1,46 @@
+<div class="notice">
+	<style>
+		.notice {
+		    margin: 5px;
+		    border: 1px solid black;
+		    overflow: auto;
+		    padding : 5px;
+		}
+		.foo {
+		    min-width: 25%;
+		    height: auto;
+		    margin: 5px;
+		    padding: 3px;
+		    border: 1px solid rgba(0, 0, 0, .2);
+	}
+	.deleted {
+		color: var(--color-fg-default);
+		background: var(--color-danger-subtle);
+	}
+	.add {
+		color: var(--color-fg-default);
+		background: var(--color-success-subtle);
+	}
+	.formatted {
+		background: var(--color-attention-muted);
+	}
+	.moved-to {
+		background: var(--color-success-very-subtle);
+	}
+	.target-changed {
+		text-decoration-line:  underline;
+		text-decoration-style: dotted;
+		color:  #32a865;
+	}
+</style>
+    <h3>Affichage des modifications</h3>
+    <p>Dans la colonne à gauche du fichier, les numéros de gauche correspondent aux lignes du fichier avant modification, et les numéros de droite correspondent aux lignes du fichier après modification.</p>
+    <p style="margin-bottom: 2px"> Signification des symboles et des couleurs : </p>
+    <div class="foo add"> Contenu ajouté</div>
+    <div class="foo moved-to">Contenu ajouté par déplacement</div>
+    <div class="foo deleted" > Contenu supprimé</div>
+    <div class="foo formatted"> Modification de mise en forme</div>
+
+    <div class="foo target-changed">Lien modifié</div>
+    <p></p>
+</div>
